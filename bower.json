@@ -1,0 +1,8 @@
+{
+  "name": "example-app",
+  "version": "0.0.1",
+  "dependencies": {
+    "pure": "~0.3.0",
+    "modernizr": "~2.6.2"
+  }
+}
