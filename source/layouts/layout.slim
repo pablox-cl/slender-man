@@ -18,6 +18,10 @@ doctype html
         =javascript_include_tag 'modernizr'
 
     body
+        /[if lt IE 7]
+           p.browsehappy
+             | You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+
         =yield
 
         /script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
