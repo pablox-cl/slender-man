@@ -1,0 +1,9 @@
+{
+  "name": "example-app",
+  "version": "0.0.1",
+  "main": "javascripts/main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nib": "~1.0.1"
+  }
+}

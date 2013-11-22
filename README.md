@@ -42,6 +42,7 @@ git clone git://github.com/PaBLoX-CL/slender-middle-man.git ~/.middleman/slender
 middleman init my-new-project --template=slender-middle-man
 cd my-new-project
 bundle install
+npm install
 bower install
 ```
 
