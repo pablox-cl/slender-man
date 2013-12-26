@@ -19,9 +19,6 @@
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
-Stylus.use :nib
-set :slim, pretty: true
-
 ###
 # Helpers
 ###
@@ -31,9 +28,15 @@ set :slim, pretty: true
 
 # Reload the browser automatically whenever files change
 activate :livereload
-
-# Bower support
 activate :bower
+activate :autoprefixer
+
+set :slim, pretty: true
+
+# default directories
+#set :js_dir, 'javascripts'
+#set :css_dir, 'stylesheets'
+#set :images_dir, 'images'
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -41,12 +44,6 @@ activate :bower
 #     "Helping"
 #   end
 # end
-
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'javascripts'
-
-set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do

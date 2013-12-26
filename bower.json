@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "pure": "~0.3.0",
-    "modernizr": "~2.6.2"
+    "modernizr": "~2.6.2",
+    "typeplate": "~1.1.2"
   }
 }
