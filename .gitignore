@@ -8,3 +8,4 @@ build/
 # ignore locally installed gems
 vendor/
 
+.ruby-version
