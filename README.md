@@ -75,7 +75,7 @@ Credits
 + [shkm](https://github.com/shkm/middleman-neato/): neato MiddleMan Template
 + [polleverywhere](https://github.com/polleverywhere/middleman_bower/): bower
   support
-+ [neo](https://github.com/neo/middleman-gh-pages/): deployment method
++ [neo][neo]: deployment method
 + [porada](https://github.com/porada/middleman-autoprefixer/): autoprefixer
 
 Copyright
@@ -107,7 +107,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [jQuery]: http://jquery.com/
 [LiveReload]: http://livereload.com/
 [Bower]: http://bower.io/
-[Compass]: http:://compass-style.org/
+[Compass]: http://compass-style.org/
 [Bourbon]: http://bourbon.io/
 [Neat]: http://neat.bourbon.io/
 [gh-pages]: http://pages.github.com/
@@ -117,3 +117,4 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [Typeplate]: http://typeplate.com/
 [PureCSS]: http://purecss.io/
 [Normalize.css]: http://git.io/normalize/
+[neo]: https://github.com/neo/middleman-gh-pages/
